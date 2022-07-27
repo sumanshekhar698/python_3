@@ -2,7 +2,7 @@ import turtle
 
 
 def square(length):
-    # defaule oriewntation is right 
+    # default orientation is right 
     rafale=turtle.Turtle()
     print(type(rafale))
     rafale.fd(length)
@@ -15,7 +15,7 @@ def square(length):
     rafale.rt(90)
 
 def square_using_forloop(length):
-    # defaule oriewntation is right 
+    # default orientation is right 
     rafale=turtle.Turtle()
     for i in range(4):
         print(i)
